@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: orange;
+}
+
+
+.allMyContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textSlot {
+    visibility: hidden;
+}
+
+.buttons button {
+    background: transparent;
+    border: 2px solid white;
+    padding: 0 1rem;
+    border-radius: 5px;
+    margin: 0 0 1rem 1rem;
+}
+
+.counter {
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    font-family: "Creepster", cursive;
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Creepster', cursive;
+    color: red;
+}
+
+.instructions {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Creepster', cursive;
+    color: red;
+
+}
+
+.error-message {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    padding: 1rem;
+    visibility: hidden;
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.success-message {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: green;
+    padding: 1rem;
+    visibility: hidden;
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
